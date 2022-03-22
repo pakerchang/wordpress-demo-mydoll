@@ -28,7 +28,7 @@
 ---
 
 # Docker 
-   ## Docker 環境安裝 ( 0.5H )
+   ## Docker 環境安裝 
    ---
    Docker-compose.yaml
    ```dockerfile
@@ -67,7 +67,7 @@
    ```zsh
       docker-compose up -d
    ```
-   ## Wordpress 後台初始設定 (0.5H)
+   ## Wordpress 後台初始設定 
    瀏覽器進入網址 `http://localhost:8000/` 選擇語系後點擊 Continue 等待設定並進入後台系統頁面
    ![wordpress page install](./images/Wordpress-page-install.png)
 
@@ -82,7 +82,7 @@
 
 ---
 
-## Style.css 設置 ( 0.5H )
+## Style.css 設置 
 + Theme Description: Theme 安裝時所需的描述檔
 在 Style.css 內部寫入下列格式
 ```CSS
@@ -110,7 +110,7 @@ Version: 1.0
 
 頁面或其他樣板開發需複用可以直接創建新檔案並撰寫 `<body></body>` 內部的版面內容，開頭及尾部引入header.php, footer.php 即可   
 若是額外頁面，也可不引用直接以全新的 HTML 結構來開發
-### Header Example: ( 3H )
+### Header Example: 
 ```html
    <!DOCTYPE html>
    <html>
@@ -128,7 +128,7 @@ Version: 1.0
          </header>
 ```
 
-### Footer Example: ( 2.5H )
+### Footer Example: 
 
 ```html
       <footer>
@@ -137,7 +137,7 @@ Version: 1.0
       </body>
    </html>
 ```
-### Page-template Example: ( 1.5H )
+### Page-template Example: 
 ```php
 // header
 <?php get_header(); ?>
